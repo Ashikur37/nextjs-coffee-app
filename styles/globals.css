@@ -3,14 +3,57 @@ body {
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: url("/static/background.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #373b64;
+  height: 100%;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+h1,h2,h3,h4,h5,h6,hr,p,pre {
+  margin: 0;
 }
-
-* {
-  box-sizing: border-box;
+button{
+  background-color: transparent;
+  background-image: none;
+  font-weight: 600;
+}
+button:focus{
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+:root{
+  --text-purple: #5c6ac4;
+  --text-purple-dark: #3f51b5;
+  --text-purple-light: #9c27b0;
+  --text-purple-light-light: #e1bee7;
+  --text-purple-light-dark: #ba68c8;
+  --text-purple-dark-light: #7e57c2;
+  --text-purple-dark-dark: #5e35b1;
+  --text-purple-darkest: #311b92;
+  --text-purple-lightest: #9575cd;
+  --text-purple-lightest-light: #f3e5f5;
+  --text-purple-lightest-dark: #e1bee7;
+  --text-purple-lightest-darkest: #b39ddb;
+  --text-purple-darkest-light: #6d1b7b;
+  --text-purple-darkest-dark: #4a148c;
+  --text-purple-darkest-darkest: #311b92;
+  --text-white-100: #ffffff;
+  --text-white-90: #fafafa;
+  --text-white-80: #f5f5f5;
+  --text-white-70: #eeeeee;
+  --text-white-60: #e0e0e0;
+  --text-white-50: #bdbdbd;
+  --text-white-40: #9e9e9e;
+  --text-white-30: #757575;
+  --text-white-20: #616161;
+  --text-white-10: #424242;
+  --text-white-05: #212121;
+  --text-white-025: #000000;
+  --text-white-0125: #000000;
+  --text-white-025: #000000;
+  --text-white-0125: #000000;
+  --text-white-025: #000000;
 }
